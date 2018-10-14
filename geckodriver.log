@@ -1,0 +1,942 @@
+1538770164209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FbmFtXK8B7oC"
+*** You are running in headless mode.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 1.9.7 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: DLL nicht gefunden.
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (1157)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+wine: Unhandled page fault on read access to 0x00000004 at address 0x7e961c26 (thread 0022), starting debugger...
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: 20:09:38.776: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 20:09:41.000: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 20:09:43.156: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+1538770188400	Marionette	INFO	Listening on port 32861
+1538770188549	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538770188649	Marionette	DEBUG	[2147483649] Frame script loaded
+1538770188670	Marionette	DEBUG	[2147483649] Frame script registered
+1538773262988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.y0mzbx2Golab"
+*** You are running in headless mode.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 1.9.7 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: DLL nicht gefunden.
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (1157)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+wine: Unhandled page fault on read access to 0x00000004 at address 0x7e961c26 (thread 0022), starting debugger...
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: 21:01:08.633: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:01:10.785: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:01:12.953: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+1538773276830	Marionette	INFO	Listening on port 46843
+1538773276939	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538773277043	Marionette	DEBUG	[2147483649] Frame script loaded
+1538773277057	Marionette	DEBUG	[2147483649] Frame script registered
+1538773277085	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538773277103	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538773277103	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1538773277115	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1538773277527	Marionette	DEBUG	[6442450945] Frame script loaded
+1538773277528	Marionette	DEBUG	[6442450945] Frame script registered
+1538773277610	Marionette	DEBUG	[6442450945] Check readyState uninitialized for about:blank
+1538773277750	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for file:///tmp/tmpPUAPzH/msg.html
+1538773280505	Marionette	DEBUG	[6442450945] Received DOM event pageshow for file:///tmp/tmpPUAPzH/msg.html
+1538773282901	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for file:///tmp/tmpPUAPzH/msg.html
+1538773283774	Marionette	DEBUG	[6442450945] Received DOM event pagehide for file:///tmp/tmpPUAPzH/msg.html
+1538773283775	Marionette	DEBUG	[6442450945] Received DOM event unload for file:///tmp/tmpPUAPzH/msg.html
+1538773284316	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538773284525	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538773291562	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538773292191	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538773292205	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1182570917, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1182570917, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1182570917 line 1 > eval, line 1: unreachable code after return statement
+1538773292326	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+1538773295834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YgYkRtxiB3UR"
+*** You are running in headless mode.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+1538773299350	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+Gtk-Message: 21:01:39.594: GtkDialog mapped without a transient parent. This is discouraged.
+1538773300038	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538773300042	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538773300930	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+Gtk-Message: 21:01:41.820: GtkDialog mapped without a transient parent. This is discouraged.
+1538773301849	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538773302063	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+
+(firefox:4367): GLib-GObject-CRITICAL **: 21:01:43.322: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Gtk-Message: 21:01:43.991: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+1538773308094	Marionette	INFO	Listening on port 41501
+1538773308186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538773308298	Marionette	DEBUG	[2147483649] Frame script loaded
+1538773308306	Marionette	DEBUG	[2147483649] Frame script registered
+1538773308336	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538773308354	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538773308355	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1538773308363	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1538773308783	Marionette	DEBUG	[6442450945] Frame script loaded
+1538773308784	Marionette	DEBUG	[6442450945] Frame script registered
+1538773308845	Marionette	DEBUG	[6442450945] Check readyState uninitialized for about:blank
+1538773308885	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for file:///tmp/tmpmclPFd/msg.html
+1538773311489	Marionette	DEBUG	[6442450945] Received DOM event pageshow for file:///tmp/tmpmclPFd/msg.html
+1538773312086	Marionette	INFO	Stopped listening on port 46843
+1538773313887	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for file:///tmp/tmpmclPFd/msg.html
+1538773314598	Marionette	DEBUG	[6442450945] Received DOM event pagehide for file:///tmp/tmpmclPFd/msg.html
+1538773314600	Marionette	DEBUG	[6442450945] Received DOM event unload for file:///tmp/tmpmclPFd/msg.html
+1538773315134	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538773315409	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to stat
+1538773322438	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538773323307	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538773323321	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1861398724, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1861398724, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1861398724 line 1 > eval, line 1: unreachable code after return statement
+1538773323440	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+1538773330476	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538773331130	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538773331135	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538773331949	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538773332537	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538773332708	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+
+(firefox:4678): GLib-GObject-CRITICAL **: 21:02:13.698: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1538773342734	Marionette	INFO	Stopped listening on port 41501
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to stat
+ExceptionHandler::GenerateDump cloned child 4969
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+fixme:advapi:UnregisterTraceGuids deadbeef: stub
+1538775419235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.20jobj4bxRiM"
+*** You are running in headless mode.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 1.9.7 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: DLL nicht gefunden.
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (1157)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+wine: Unhandled page fault on read access to 0x00000004 at address 0x7e96fc26 (thread 0022), starting debugger...
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: 21:37:03.671: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:37:05.939: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:37:08.096: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+1538775432032	Marionette	INFO	Listening on port 44717
+1538775432079	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538775432175	Marionette	DEBUG	[2147483649] Frame script loaded
+1538775432183	Marionette	DEBUG	[2147483649] Frame script registered
+1538775432223	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538775432270	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538775432276	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1538775432278	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1538775432673	Marionette	DEBUG	[6442450945] Frame script loaded
+1538775432724	Marionette	DEBUG	[6442450945] Frame script registered
+1538775432805	Marionette	DEBUG	[6442450945] Check readyState uninitialized for about:blank
+1538775432847	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for file:///tmp/tmp6yTGSV/msg.html
+1538775435299	Marionette	DEBUG	[6442450945] Received DOM event pageshow for file:///tmp/tmp6yTGSV/msg.html
+1538775437710	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for file:///tmp/tmp6yTGSV/msg.html
+1538775438572	Marionette	DEBUG	[6442450945] Received DOM event pagehide for file:///tmp/tmp6yTGSV/msg.html
+1538775438573	Marionette	DEBUG	[6442450945] Received DOM event unload for file:///tmp/tmp6yTGSV/msg.html
+1538775439055	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538775439338	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538775446368	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538775446938	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538775446950	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1243246394, line 1: unreachable code after return statement
+1538775447078	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+1538775454115	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538775454814	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538775454817	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538775455642	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538775456174	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538775456315	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+
+(firefox:5218): GLib-GObject-CRITICAL **: 21:37:37.474: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1538775466344	Marionette	INFO	Stopped listening on port 44717
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to stat
+ExceptionHandler::GenerateDump cloned child 5532
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+fixme:advapi:UnregisterTraceGuids deadbeef: stub
+1538776183562	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Gm8DabFA5hjS"
+*** You are running in headless mode.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 1.9.7 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: DLL nicht gefunden.
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (1157)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+wine: Unhandled page fault on read access to 0x00000004 at address 0x7e961c26 (thread 0022), starting debugger...
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: 21:49:48.575: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:49:50.735: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:49:52.899: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+1538776196881	Marionette	INFO	Listening on port 46199
+1538776196930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538776197053	Marionette	DEBUG	[2147483649] Frame script loaded
+1538776197058	Marionette	DEBUG	[2147483649] Frame script registered
+1538776197088	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538776197133	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538776197134	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1538776197136	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1538776197526	Marionette	DEBUG	[6442450945] Frame script loaded
+1538776197539	Marionette	DEBUG	[6442450945] Frame script registered
+1538776197614	Marionette	DEBUG	[6442450945] Check readyState uninitialized for about:blank
+1538776197653	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for file:///tmp/tmpQoH7t8/msg.html
+1538776200376	Marionette	DEBUG	[6442450945] Received DOM event pageshow for file:///tmp/tmpQoH7t8/msg.html
+1538776202815	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for file:///tmp/tmpQoH7t8/msg.html
+1538776203644	Marionette	DEBUG	[6442450945] Received DOM event pagehide for file:///tmp/tmpQoH7t8/msg.html
+1538776203645	Marionette	DEBUG	[6442450945] Received DOM event unload for file:///tmp/tmpQoH7t8/msg.html
+1538776204207	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776204601	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776211635	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776212165	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776212185	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1557309039, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1557309039, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1557309039 line 1 > eval, line 1: unreachable code after return statement
+1538776212307	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+1538776219330	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776219966	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776219969	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776220778	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776221339	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776221492	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+
+(firefox:5855): GLib-GObject-CRITICAL **: 21:50:22.428: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1538776230360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Kz0rshAHJFez"
+*** You are running in headless mode.
+1538776231518	Marionette	INFO	Stopped listening on port 46199
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: 21:50:34.005: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:50:36.160: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:50:38.328: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to stat
+1538776242222	Marionette	INFO	Listening on port 37593
+1538776242294	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538776242414	Marionette	DEBUG	[2147483649] Frame script loaded
+1538776242418	Marionette	DEBUG	[2147483649] Frame script registered
+1538776242453	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538776242488	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538776242489	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1538776242490	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1538776242891	Marionette	DEBUG	[6442450945] Frame script loaded
+1538776242892	Marionette	DEBUG	[6442450945] Frame script registered
+1538776242953	Marionette	DEBUG	[6442450945] Check readyState uninitialized for about:blank
+1538776243071	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for file:///tmp/tmpqFxgfm/msg.html
+1538776245477	Marionette	DEBUG	[6442450945] Received DOM event pageshow for file:///tmp/tmpqFxgfm/msg.html
+1538776247860	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for file:///tmp/tmpqFxgfm/msg.html
+1538776248489	Marionette	DEBUG	[6442450945] Received DOM event pagehide for file:///tmp/tmpqFxgfm/msg.html
+1538776248491	Marionette	DEBUG	[6442450945] Received DOM event unload for file:///tmp/tmpqFxgfm/msg.html
+1538776248969	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776249256	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776256286	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776256825	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776256843	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1172815676, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1172815676, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1172815676 line 1 > eval, line 1: unreachable code after return statement
+1538776257078	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+1538776264114	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776264764	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776264766	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776265670	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776266201	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776266350	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+
+(firefox:6161): GLib-GObject-CRITICAL **: 21:51:07.306: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1538776276379	Marionette	INFO	Stopped listening on port 37593
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to stat
+ExceptionHandler::GenerateDump cloned child 6443
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+fixme:advapi:UnregisterTraceGuids deadbeef: stub
+1538776603548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.y9QutPiKWTmq"
+*** You are running in headless mode.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 1.9.7 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: DLL nicht gefunden.
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (1157)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+wine: Unhandled page fault on read access to 0x00000004 at address 0x7e961c26 (thread 0022), starting debugger...
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: 21:56:47.876: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:56:50.036: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:56:52.198: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+1538776616058	Marionette	INFO	Listening on port 39025
+1538776616100	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538776616198	Marionette	DEBUG	[2147483649] Frame script loaded
+1538776616201	Marionette	DEBUG	[2147483649] Frame script registered
+1538776616223	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538776616238	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538776616238	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1538776616240	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1538776616708	Marionette	DEBUG	[6442450945] Frame script loaded
+1538776616711	Marionette	DEBUG	[6442450945] Frame script registered
+1538776616774	Marionette	DEBUG	[6442450945] Check readyState uninitialized for about:blank
+1538776616809	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for file:///tmp/tmpPNlV0f/msg.html
+1538776619209	Marionette	DEBUG	[6442450945] Received DOM event pageshow for file:///tmp/tmpPNlV0f/msg.html
+1538776621668	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for file:///tmp/tmpPNlV0f/msg.html
+1538776622359	Marionette	DEBUG	[6442450945] Received DOM event pagehide for file:///tmp/tmpPNlV0f/msg.html
+1538776622361	Marionette	DEBUG	[6442450945] Received DOM event unload for file:///tmp/tmpPNlV0f/msg.html
+1538776623054	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776623486	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776630526	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776631050	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538776631061	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1242152469, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1242152469, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1242152469 line 1 > eval, line 1: unreachable code after return statement
+1538776631183	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+1538776638206	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776638838	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776638842	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fcontratos%3Feml%3Deml-20180831-nadmltm-vercontrato
+1538776639652	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776640214	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776640350	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776647370	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776647906	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776647907	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538776647919	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/mis-facturas.html?eml=eml-20180831-nadmltm-verfacturas
+1538776647936	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/mis-facturas.html?eml=eml-20180831-nadmltm-verfacturas
+1538776654961	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fmis-facturas.html%3Feml%3Deml-20180831-nadmltm-verfacturas
+1538776655833	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fmis-facturas.html%3Feml%3Deml-20180831-nadmltm-verfacturas
+1538776655840	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fmis-facturas.html%3Feml%3Deml-20180831-nadmltm-verfacturas
+JavaScript error: https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83FmtgpK%2BxUh9KOwIMqp3vnhtT80sDbuazbTbuojjPH%2FaKcZ%2BA9OUb%2Bp5CqBvGqSHNql7FGYzl%2FgjNBcdzi5JVnEnKt2yGXgQl7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD, line 528: ReferenceError: analyticsCall is not defined
+1538776656332	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538776657034	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538776664096	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538776664609	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538776664610	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538776664622	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/mi-consumo?eml=eml-20180831-nadmltm-verconsumo
+1538776664643	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/mi-consumo?eml=eml-20180831-nadmltm-verconsumo
+1538776671667	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fmi-consumo%3Feml%3Deml-20180831-nadmltm-verconsumo
+1538776672282	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fmi-consumo%3Feml%3Deml-20180831-nadmltm-verconsumo
+1538776672290	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/gestiona-online/mi-endesa.html?service=%2Foficina%2Fmi-consumo%3Feml%3Deml-20180831-nadmltm-verconsumo
+1538776672305	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/infoEnergia.html?id=1aCLCAXvt0e3MbKB927WAo9s6cAEWhdqgNaQw9BcWB4loYDeDml9%2BV9PvZazEymE ... nXyFFriq%2BvxiHwHWNGhpX0V4vL%2BoWOdo%2F7LkANIJ0REReRKowtL&v=nEVyNfYFSndThsw19LvbYA%3D%3D&eml=eml-20180831-default-infoenergia
+1538776672323	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/infoEnergia.html?id=1aCLCAXvt0e3MbKB927WAo9s6cAEWhdqgNaQw9BcWB4loYDeDml9%2BV9PvZazEymE ... nXyFFriq%2BvxiHwHWNGhpX0V4vL%2BoWOdo%2F7LkANIJ0REReRKowtL&v=nEVyNfYFSndThsw19LvbYA%3D%3D&eml=eml-20180831-default-infoenergia
+1538776677334	Marionette	INFO	Stopped listening on port 39025
+[Parent 6560, Gecko_IOThread] WARNING: pipe error (68): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-90Grgq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+ExceptionHandler::GenerateDump cloned child 6891
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+fixme:advapi:UnregisterTraceGuids deadbeef: stub
+1538777112644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lIclCBD46WAS"
+*** You are running in headless mode.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/artecker/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 1.9.7 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: DLL nicht gefunden.
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (1157)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+wine: Unhandled page fault on read access to 0x00000004 at address 0x7e961c26 (thread 0022), starting debugger...
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: 22:05:17.632: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 22:05:19.867: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 22:05:22.036: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/artecker/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/artecker/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/artecker/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/artecker/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:d3d:wined3d_dxtn_init Wine cannot find the txc_dxtn library, DXTn software support unavailable.
+fixme:ntdll:EtwRegisterTraceGuidsW (0x7b8d2127, 0x7b970120, {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 1, 0x71f478, (null), (null), 0x7b970120): stub
+fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {aa087e0e-0b35-4e28-8f3a-440c3f51eef1}
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: X.Org
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: AMD RV620 (DRM 2.50.0 / 4.15.0-34-generic, LLVM 6.0.0)
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is not in the whitelist, disabling OpenGL.
+1538777125968	Marionette	INFO	Listening on port 44013
+1538777126021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538777126138	Marionette	DEBUG	[2147483649] Frame script loaded
+1538777126171	Marionette	DEBUG	[2147483649] Frame script registered
+1538777126208	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538777126233	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538777126236	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1538777126238	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1538777126731	Marionette	DEBUG	[6442450945] Frame script loaded
+1538777126733	Marionette	DEBUG	[6442450945] Frame script registered
+1538777126818	Marionette	DEBUG	[6442450945] Check readyState uninitialized for about:blank
+1538777126972	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for file:///tmp/tmpFfMnl0/msg.html
+1538777129404	Marionette	DEBUG	[6442450945] Received DOM event pageshow for file:///tmp/tmpFfMnl0/msg.html
+1538777131795	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for file:///tmp/tmpFfMnl0/msg.html
+1538777132581	Marionette	DEBUG	[6442450945] Received DOM event pagehide for file:///tmp/tmpFfMnl0/msg.html
+1538777132582	Marionette	DEBUG	[6442450945] Received DOM event unload for file:///tmp/tmpFfMnl0/msg.html
+1538777133169	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538777133772	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538777140799	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538777141322	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://view.digital.endesaclientes.com/?qs=70be0b1f0e04c9016583aa3569835b0bf3c28b537f5de7860af72f814103eef516e2c52be26c04d937db3982fb24263bb9b6e045c103a8448ae98b7d3b112652a338aeaa7b5f824bc2f3470577011ec2
+1538777141350	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1991087330, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1991087330, line 1: unreachable code after return statement
+JavaScript warning: https://www.endesaclientes.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1991087330 line 1 > eval, line 1: unreachable code after return statement
+1538777141511	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/contratos?eml=eml-20180831-nadmltm-vercontrato
+1538777148546	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777150580	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777150582	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777152344	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538777153458	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538777153762	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538777160789	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538777161426	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538777161428	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/descargarFacturaAD.html?id=%2Bw%2B8qYCKOOQg8zd1UJ2b6%2B7c%2F%2B9eoO4N1TN7F92r7IQSx3yMEtvoOM5Av ... SQexG1uMJ%2BWGST6ylHMtdR5EKE8UE%2FSBNxqT%2BsEQ%3D%3D&v=XnyTR%2BtoyN6AMfltGGWR5w%3D%3Deml=eml-20180831-nadmltm-descargafactura
+1538777161462	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/mis-facturas.html?eml=eml-20180831-nadmltm-verfacturas
+1538777161490	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/mis-facturas.html?eml=eml-20180831-nadmltm-verfacturas
+1538777168575	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777169529	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777169536	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+JavaScript error: https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83FmtgpK%2BxUh9KOwIMqp3vnhtT80sDbuazbTbuojjPH%2FaKcZ%2BA9OUb%2Bp5CqBvGqSHNql7FGYzl%2FgjNBcdzi5JVnEnKt2yGXgQl7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD, line 537: ReferenceError: analyticsCall is not defined
+1538777170350	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538777171436	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538777178459	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538777179010	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538777179011	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/hogares/CrossSales?id=1aCLCAXvt0e3MbKB927WAiVHoi1QTfs8cMSVCu%2FAjoIPajv2Ls5ap4LVtUthn7dSzJX83F ... 7T7W00UljTPzBXuFr9Y07JueNVDkLKZI4oFbm%2BLWvzk%2Ba1zJw%3D%3D&v=hgrJX3wRiBGObDuJO1PDRA%3D%3D&eml=eml-20180831-ventasCruzadas-AD
+1538777179037	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/mi-consumo?eml=eml-20180831-nadmltm-verconsumo
+1538777179079	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/mi-consumo?eml=eml-20180831-nadmltm-verconsumo
+1538777186107	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777187221	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777187223	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/Hogares/Servicio-no-disponible-temporalmente
+1538777187250	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.endesaclientes.com/oficina/infoEnergia.html?id=1aCLCAXvt0e3MbKB927WAo9s6cAEWhdqgNaQw9BcWB4loYDeDml9%2BV9PvZazEymE ... nXyFFriq%2BvxiHwHWNGhpX0V4vL%2BoWOdo%2F7LkANIJ0REReRKowtL&v=nEVyNfYFSndThsw19LvbYA%3D%3D&eml=eml-20180831-default-infoenergia
+1538777187286	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.endesaclientes.com/oficina/infoEnergia.html?id=1aCLCAXvt0e3MbKB927WAo9s6cAEWhdqgNaQw9BcWB4loYDeDml9%2BV9PvZazEymE ... nXyFFriq%2BvxiHwHWNGhpX0V4vL%2BoWOdo%2F7LkANIJ0REReRKowtL&v=nEVyNfYFSndThsw19LvbYA%3D%3D&eml=eml-20180831-default-infoenergia
+1538777192312	Marionette	INFO	Stopped listening on port 44013
+ExceptionHandler::GenerateDump cloned child 8185ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+fixme:advapi:UnregisterTraceGuids deadbeef: stub

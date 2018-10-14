@@ -1,0 +1,64 @@
+<odoo>
+  <data>
+        <record id="hr_expense_exportAttachments" model="ir.actions.server">
+            <field name="name">Export Receipts</field>
+            <field name="type">ir.actions.server</field>
+            <field name="model_id" ref="hr_expense.model_hr_expense"/>
+            <field name="binding_model_id" ref="hr_expense.model_hr_expense"/>
+            <field name="state">code</field>
+            <field name="code">
+if records:
+    action = records.export_expenses()
+            </field>
+
+        </record>
+
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="hr_expense_ext_views.list">
+      <field name="name">hr_expenses_ocr list</field>
+      <field name="model">hr_expenses_ext.hr_expenseocr</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="res_id"/>
+          <field name="re_product_id"/>
+          <field name="re_date"/>
+          <field name="re_total"/>
+        </tree>
+      </field>
+    </record>
+    -->
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="hr_expenses_ext.action_window">
+      <field name="name">hr_expenses ocr</field>
+      <field name="res_model">hr_expenses_ext.hr_expensesocr</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="hr_expenses_ext.action_server">
+      <field name="name">hr_expenses_ext server</field>
+      <field name="model_id" ref="model_hr_expenses_ext_hr_expenses_ext"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <menuitem name="OCR regex" id="hr_expenses_ext_menu_root" />
+    <menuitem name="OCR regexddd" id="menu_hr_expenses_ocr" groups="base.group_user"/>
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="hr_expenses_ext.menu_1_list" parent="hr_expenses_ext.menu_1"
+              action="hr_expenses_ext.action_window"/>
+    <menuitem name="Server to list" id="hr_expenses_ext" parent="hr_expenses_ext.menu_2"
+              action="hr_expenses_ext.action_server"/>
+    -->
+  </data>
+</odoo>
